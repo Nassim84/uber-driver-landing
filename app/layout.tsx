@@ -9,13 +9,12 @@ const sora = Sora({ subsets: ["latin"], variable: "--font-sora" });
 export const metadata: Metadata = {
 	metadataBase: new URL("https://ndrive.fr"),
 	title: {
-		default: "Ned Driver | Chauffeur privé VTC en Provence",
+		default: "Chauffeur privé VTC Avignon | Aéroport & gare – Ned Driver",
 		template: "%s | Ned Driver",
 	},
 	description:
-		"Ned Driver, votre chauffeur privé VTC disponible 24h/24 et 7j/7 à Avignon et en Provence. Transferts aéroports, trajets professionnels et déplacements privés.",
+		"Chauffeur privé VTC à Avignon 24h/24 : transferts aéroport Marseille, gares TGV, Aix, Nîmes, Montpellier. Devis gratuit en quelques minutes.",
 	applicationName: "Ned Driver",
-	alternates: { canonical: "/" },
 	keywords: [
 		"VTC Avignon",
 		"chauffeur privé Avignon",
@@ -35,7 +34,6 @@ export const metadata: Metadata = {
 	openGraph: {
 		type: "website",
 		locale: "fr_FR",
-		url: "/",
 		siteName: "Ned Driver",
 		title: "Ned Driver | Chauffeur privé VTC en Provence",
 		description:
@@ -57,7 +55,7 @@ export const metadata: Metadata = {
 	},
 	icons: {
 		icon: [{ url: "/icon.svg", type: "image/svg+xml" }],
-		apple: "/apple-touch-icon.png",
+		apple: "/apple-icon.png",
 	},
 };
 
