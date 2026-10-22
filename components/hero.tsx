@@ -59,7 +59,7 @@ export function Hero() {
             {[
               { icon: Clock, label: "Ponctualité", value: "100%" },
               { icon: ShieldCheck, label: "Trajets sécurisés", value: "Pro" },
-              { icon: Star, label: "Note clients", value: "4,9/5" },
+              { icon: Star, label: "Avis Google", value: "5,0/5" },
             ].map((stat) => (
               <div key={stat.label} className="flex flex-col gap-1">
                 <stat.icon className="size-5 text-primary" />

@@ -1,25 +1,30 @@
-import { Star } from "lucide-react"
+import { ExternalLink, Star } from "lucide-react"
 
+const GOOGLE_REVIEWS_URL = "https://share.google/GVobeOqawkdLyivQR"
+const GOOGLE_RATING = "5,0"
+const GOOGLE_REVIEW_COUNT = 33
+
+// Avis réels copiés depuis la fiche Google Business Profile « N-drive »
 const REVIEWS = [
   {
-    name: "Camille R.",
-    trip: "Transfert Aéroport Marseille",
-    text: "Chauffeur ponctuel et très professionnel. Véhicule impeccable et trajet ultra confortable. Je recommande vivement pour les transferts aéroport !",
+    name: "Juliette B.",
+    date: "Mars 2026",
+    text: "Chauffeur très professionnel, ponctuel et très agréable. Véhicule impeccable et conduite vraiment confortable. On se sent en confiance du début à la fin du trajet. Je recommande sans hésiter !",
   },
   {
-    name: "Julien M.",
-    trip: "Trajet professionnel · Aix",
-    text: "Service au top pour mes déplacements pros. Toujours à l’heure, discret et de bon conseil. Un vrai gain de sérénité au quotidien.",
+    name: "Richard B.",
+    date: "Mars 2026",
+    text: "Deuxième expérience avec la compagnie ndrive et toujours top ! Chauffeur très professionnel souriant et ponctuel, de plus Zakaria a une conduite très souple je recommande",
   },
   {
-    name: "Sophie L.",
-    trip: "Soirée · Avignon",
-    text: "Réservation simple et rapide, chauffeur adorable. On s’est sentis en sécurité toute la soirée. Merci N-drive !",
+    name: "Zizou A.",
+    date: "Mars 2026",
+    text: "Excellent service un grand merci à la compagnie Ndrive je recommande ce chauffeur sur Avignon souriant sympathique et qui connaît parfaitement les routes d’Avignon",
   },
   {
-    name: "Karim B.",
-    trip: "Nîmes → Montpellier",
-    text: "Excellent rapport qualité-prix, devis clair et aucune surprise. La ponctualité est vraiment au rendez-vous.",
+    name: "Mina M.",
+    date: "Mai 2026",
+    text: "Très bonne expérience, ponctuel avec très bonne conduite. Donne des informations utiles. Nous sommes très contents du service, nous recommandons.",
   },
 ]
 
@@ -40,7 +45,9 @@ export function Reviews() {
                 <Star key={i} className="size-5 fill-primary text-primary" />
               ))}
             </div>
-            <span className="text-sm text-muted-foreground">4,9/5 · clients satisfaits</span>
+            <span className="text-sm text-muted-foreground">
+              {GOOGLE_RATING}/5 · {GOOGLE_REVIEW_COUNT} avis Google
+            </span>
           </div>
         </div>
 
@@ -60,10 +67,22 @@ export function Reviews() {
               </blockquote>
               <figcaption className="mt-5 border-t border-border pt-4">
                 <p className="font-display text-sm font-semibold">{review.name}</p>
-                <p className="text-xs text-muted-foreground">{review.trip}</p>
+                <p className="text-xs text-muted-foreground">Avis Google · {review.date}</p>
               </figcaption>
             </figure>
           ))}
+        </div>
+
+        <div className="mt-10 flex justify-center">
+          <a
+            href={GOOGLE_REVIEWS_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 rounded-full border border-border bg-background/60 px-6 py-3 text-sm font-semibold text-foreground transition-colors hover:border-primary/40 hover:text-primary"
+          >
+            Voir les {GOOGLE_REVIEW_COUNT} avis sur Google
+            <ExternalLink className="size-4" />
+          </a>
         </div>
       </div>
     </section>
