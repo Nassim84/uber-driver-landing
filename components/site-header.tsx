@@ -37,9 +37,9 @@ export function SiteHeader() {
       )}
     >
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between gap-4 px-4 sm:px-6 lg:h-20 lg:px-8">
-        <a href="#accueil" className="group flex items-center gap-1 font-display text-xl font-bold tracking-tight lg:text-2xl">
-          <span className="text-foreground">Ned</span>
-          <span className="text-primary">Driver</span>
+        <a href="#accueil" className="group flex items-center font-display text-xl font-bold tracking-tight lg:text-2xl">
+          <span className="text-foreground">N-</span>
+          <span className="text-primary">drive</span>
         </a>
 
         <nav className="hidden items-center gap-1 lg:flex" aria-label="Navigation principale">

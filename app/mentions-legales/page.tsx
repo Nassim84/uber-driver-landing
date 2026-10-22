@@ -3,17 +3,17 @@ import { ArrowLeft, ShieldCheck } from 'lucide-react'
 
 export const metadata = {
   title: 'Mentions légales',
-  description: 'Mentions légales et informations réglementaires de Ned Driver, chauffeur privé VTC en Provence.',
+  description: 'Mentions légales et informations réglementaires de N-drive, chauffeur privé VTC en Provence.',
   alternates: { canonical: '/mentions-legales' },
 }
 
 const sections = [
-  ['Éditeur du site', <>Le présent site est édité par <strong>Ned Driver</strong>, activité de chauffeur privé VTC.<br />Adresse : Avignon, 84000, France<br />Téléphone : <a href="tel:+33767603284">+33 7 67 60 32 84</a><br />E-mail : <a href="mailto:ned.driver84@gmail.com">ned.driver84@gmail.com</a></>],
+  ['Éditeur du site', <>Le présent site est édité par <strong>N-drive</strong>, activité de chauffeur privé VTC.<br />Adresse : Avignon, 84000, France<br />Téléphone : <a href="tel:+33767603284">+33 7 67 60 32 84</a><br />E-mail : <a href="mailto:ned.driver84@gmail.com">ned.driver84@gmail.com</a></>],
   ['Hébergement', <>Le site est hébergé par Vercel Inc.<br />340 S Lemon Ave #4133, Walnut, CA 91789, États-Unis<br /><a href="https://vercel.com" target="_blank" rel="noreferrer">vercel.com</a></>],
   ['Propriété intellectuelle', <>L’ensemble des contenus présents sur ce site — textes, photographies, identité visuelle et éléments graphiques — est protégé par les dispositions françaises et internationales relatives à la propriété intellectuelle. Toute reproduction ou représentation, totale ou partielle, est interdite sans autorisation préalable.</>],
   ['Données personnelles', <>Les informations transmises via le formulaire de demande de devis sont utilisées uniquement pour répondre à votre demande et organiser votre trajet. Elles ne sont pas vendues ni cédées à des tiers. Vous pouvez exercer vos droits d’accès, de rectification ou d’effacement en écrivant à <a href="mailto:ned.driver84@gmail.com">ned.driver84@gmail.com</a>.</>],
   ['Cookies', <>Ce site utilise uniquement les cookies strictement nécessaires à son fonctionnement, le cas échéant. Les outils de mesure d’audience ou services tiers seront indiqués et soumis à votre consentement lorsqu’il est requis.</>],
-  ['Responsabilité', <>Ned Driver s’efforce d’assurer l’exactitude et la disponibilité des informations publiées. Les horaires, zones desservies et modalités de réservation peuvent évoluer. Les informations contractuelles applicables à une course sont confirmées lors de la réservation.</>],
+  ['Responsabilité', <>N-drive s’efforce d’assurer l’exactitude et la disponibilité des informations publiées. Les horaires, zones desservies et modalités de réservation peuvent évoluer. Les informations contractuelles applicables à une course sont confirmées lors de la réservation.</>],
 ]
 
 export default function MentionsLegalesPage() {

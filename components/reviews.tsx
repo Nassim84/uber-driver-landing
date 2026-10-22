@@ -14,7 +14,7 @@ const REVIEWS = [
   {
     name: "Sophie L.",
     trip: "Soirée · Avignon",
-    text: "Réservation simple et rapide, chauffeur adorable. On s’est sentis en sécurité toute la soirée. Merci Ned Driver !",
+    text: "Réservation simple et rapide, chauffeur adorable. On s’est sentis en sécurité toute la soirée. Merci N-drive !",
   },
   {
     name: "Karim B.",

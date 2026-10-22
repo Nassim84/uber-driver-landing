@@ -17,7 +17,7 @@ const localBusinessJsonLd = {
 	"@context": "https://schema.org",
 	"@type": "LocalBusiness",
 	"@id": "https://ndrive.fr/#business",
-	name: "Ned Driver",
+	name: "N-drive",
 	description: "Chauffeur privé VTC disponible 24h/24 et 7j/7 en Provence.",
 	url: "https://ndrive.fr/",
 	telephone: "+33767603284",

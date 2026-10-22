@@ -22,9 +22,9 @@ export function SiteFooter() {
     <footer className="border-t border-border bg-card/60">
       <div className="mx-auto grid max-w-7xl gap-12 px-4 py-14 sm:px-6 lg:grid-cols-3 lg:px-8">
         <div>
-          <a href="#accueil" className="flex items-center gap-1 font-display text-2xl font-bold">
-            <span className="text-foreground">Ned</span>
-            <span className="text-primary">Driver</span>
+          <a href="#accueil" className="flex items-center font-display text-2xl font-bold">
+            <span className="text-foreground">N-</span>
+            <span className="text-primary">drive</span>
           </a>
           <div className="mt-4 h-1 w-16 rounded-full bg-primary" />
           <p className="mt-5 max-w-sm text-sm leading-relaxed text-muted-foreground">
@@ -71,7 +71,7 @@ export function SiteFooter() {
 
       <div className="border-t border-border">
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-2 px-4 py-6 text-xs text-muted-foreground sm:flex-row sm:px-6 lg:px-8">
-          <p>© {new Date().getFullYear()} Ned Driver — Tous droits réservés.</p>
+          <p>© {new Date().getFullYear()} N-drive — Tous droits réservés.</p>
           <p>Chauffeur privé VTC · Provence-Alpes-Côte d’Azur</p>
         </div>
       </div>

@@ -9,23 +9,24 @@ const sora = Sora({ subsets: ["latin"], variable: "--font-sora" });
 export const metadata: Metadata = {
 	metadataBase: new URL("https://ndrive.fr"),
 	title: {
-		default: "Chauffeur privé VTC Avignon | Aéroport & gare – Ned Driver",
-		template: "%s | Ned Driver",
+		default: "Chauffeur privé VTC Avignon | Aéroport & gare – N-drive",
+		template: "%s | N-drive",
 	},
 	description:
 		"Chauffeur privé VTC à Avignon 24h/24 : transferts aéroport Marseille, gares TGV, Aix, Nîmes, Montpellier. Devis gratuit en quelques minutes.",
-	applicationName: "Ned Driver",
+	applicationName: "N-drive",
 	keywords: [
 		"VTC Avignon",
 		"chauffeur privé Avignon",
 		"transfert aéroport Marseille",
 		"VTC Aix-en-Provence",
 		"chauffeur Provence",
-		"Ned Driver",
+		"N-drive",
+		"Ndrive",
 	],
-	authors: [{ name: "Ned Driver" }],
-	creator: "Ned Driver",
-	publisher: "Ned Driver",
+	authors: [{ name: "N-drive" }],
+	creator: "N-drive",
+	publisher: "N-drive",
 	robots: {
 		index: true,
 		follow: true,
@@ -34,8 +35,8 @@ export const metadata: Metadata = {
 	openGraph: {
 		type: "website",
 		locale: "fr_FR",
-		siteName: "Ned Driver",
-		title: "Ned Driver | Chauffeur privé VTC en Provence",
+		siteName: "N-drive",
+		title: "N-drive | Chauffeur privé VTC en Provence",
 		description:
 			"Chauffeur privé disponible 24h/24 et 7j/7 pour vos trajets en Provence.",
 		images: [
@@ -43,13 +44,13 @@ export const metadata: Metadata = {
 				url: "/images/og-image.jpg",
 				width: 1200,
 				height: 630,
-				alt: "Berline de chauffeur privé Ned Driver",
+				alt: "Berline de chauffeur privé N-drive",
 			},
 		],
 	},
 	twitter: {
 		card: "summary_large_image",
-		title: "Ned Driver | Chauffeur privé VTC en Provence",
+		title: "N-drive | Chauffeur privé VTC en Provence",
 		description: "Chauffeur privé disponible 24h/24 et 7j/7 en Provence.",
 		images: ["/images/og-image.jpg"],
 	},
