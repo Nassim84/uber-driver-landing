@@ -40,9 +40,9 @@ export const metadata: Metadata = {
 			"Chauffeur privé disponible 24h/24 et 7j/7 pour vos trajets en Provence.",
 		images: [
 			{
-				url: "/images/hero-car.png",
-				width: 1536,
-				height: 1024,
+				url: "/images/og-image.jpg",
+				width: 1200,
+				height: 630,
 				alt: "Berline de chauffeur privé Ned Driver",
 			},
 		],
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
 		card: "summary_large_image",
 		title: "Ned Driver | Chauffeur privé VTC en Provence",
 		description: "Chauffeur privé disponible 24h/24 et 7j/7 en Provence.",
-		images: ["/images/hero-car.png"],
+		images: ["/images/og-image.jpg"],
 	},
 	icons: {
 		icon: [{ url: "/icon.svg", type: "image/svg+xml" }],

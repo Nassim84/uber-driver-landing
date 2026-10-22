@@ -22,7 +22,7 @@ const localBusinessJsonLd = {
 	url: "https://ndrive.fr/",
 	telephone: "+33767603284",
 	email: "ned.driver84@gmail.com",
-	image: "https://ndrive.fr/images/hero-car.png",
+	image: "https://ndrive.fr/images/og-image.jpg",
 	priceRange: "€€",
 	address: {
 		"@type": "PostalAddress",

@@ -7,7 +7,7 @@ export function Hero() {
       {/* Background image */}
       <div className="absolute inset-0 -z-10">
         <Image
-          src="/images/hero-car.png"
+          src="/images/hero-car.webp"
           alt="Berline noire de luxe Ned Driver la nuit en ville"
           fill
           priority

@@ -5,12 +5,12 @@ import { useState } from "react"
 import { cn } from "@/lib/utils"
 
 const CITIES = [
-  { name: "Avignon", img: "/images/avignon.png" },
-  { name: "Aéroport Marseille Provence", img: "/images/aeroport.png" },
-  { name: "Marseille", img: "/images/marseille.png" },
-  { name: "Aix-en-Provence", img: "/images/aix.png" },
-  { name: "Montpellier", img: "/images/montpellier.png" },
-  { name: "Nîmes", img: "/images/nimes.png" },
+  { name: "Avignon", img: "/images/avignon.webp" },
+  { name: "Aéroport Marseille Provence", img: "/images/aeroport.webp" },
+  { name: "Marseille", img: "/images/marseille.webp" },
+  { name: "Aix-en-Provence", img: "/images/aix.webp" },
+  { name: "Montpellier", img: "/images/montpellier.webp" },
+  { name: "Nîmes", img: "/images/nimes.webp" },
 ]
 
 export function Destinations() {
