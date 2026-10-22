@@ -1,13 +1,15 @@
+import Link from "next/link"
 import { ChevronRight } from "lucide-react"
+import { DESTINATIONS } from "@/lib/destinations"
 
 const NAV = [
-  { label: "Accueil", href: "#accueil" },
-  { label: "Demande de devis", href: "#devis" },
-  { label: "Notre priorité", href: "#priorite" },
-  { label: "Destinations", href: "#destinations" },
-  { label: "Avis", href: "#avis" },
-  { label: "FAQ", href: "#faq" },
-  { label: "Contact", href: "#contact" },
+  { label: "Accueil", href: "/#accueil" },
+  { label: "Demande de devis", href: "/#devis" },
+  { label: "Notre priorité", href: "/#priorite" },
+  { label: "Destinations", href: "/#destinations" },
+  { label: "Avis", href: "/#avis" },
+  { label: "FAQ", href: "/#faq" },
+  { label: "Contact", href: "/#contact" },
   { label: "Mentions légales", href: "/mentions-legales" },
   { label: "Confidentialité", href: "/politique-de-confidentialite" },
 ]
@@ -22,9 +24,9 @@ const CONTACT = [
 export function SiteFooter() {
   return (
     <footer className="border-t border-border bg-card/60">
-      <div className="mx-auto grid max-w-7xl gap-12 px-4 py-14 sm:px-6 lg:grid-cols-3 lg:px-8">
+      <div className="mx-auto grid max-w-7xl gap-12 px-4 py-14 sm:grid-cols-2 sm:px-6 lg:grid-cols-4 lg:px-8">
         <div>
-          <a href="#accueil" className="flex items-center font-display text-2xl font-bold">
+          <a href="/" className="flex items-center font-display text-2xl font-bold">
             <span className="text-foreground">N-</span>
             <span className="text-primary">drive</span>
           </a>
@@ -39,13 +41,28 @@ export function SiteFooter() {
         <div>
           <h3 className="font-display text-sm font-semibold uppercase tracking-wide">Navigation</h3>
           <div className="mt-4 h-1 w-16 rounded-full bg-primary" />
-          <ul className="mt-5 grid grid-cols-2 gap-y-3 text-sm">
+          <ul className="mt-5 grid gap-y-3 text-sm">
             {NAV.map((item) => (
               <li key={item.href}>
                 <a href={item.href} className="inline-flex items-center gap-1.5 text-muted-foreground transition-colors hover:text-primary">
                   <ChevronRight className="size-3.5 text-primary" />
                   {item.label}
                 </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        <div>
+          <h3 className="font-display text-sm font-semibold uppercase tracking-wide">Destinations</h3>
+          <div className="mt-4 h-1 w-16 rounded-full bg-primary" />
+          <ul className="mt-5 grid gap-3 text-sm">
+            {DESTINATIONS.map((d) => (
+              <li key={d.slug}>
+                <Link href={`/${d.slug}`} className="inline-flex items-center gap-1.5 text-muted-foreground transition-colors hover:text-primary">
+                  <ChevronRight className="size-3.5 text-primary" />
+                  {d.name}
+                </Link>
               </li>
             ))}
           </ul>

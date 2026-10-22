@@ -5,13 +5,13 @@ import { Menu, Phone, X } from "lucide-react"
 import { cn } from "@/lib/utils"
 
 const NAV_LINKS = [
-  { label: "Accueil", href: "#accueil" },
-  { label: "Demande de devis", href: "#devis" },
-  { label: "Notre priorité", href: "#priorite" },
-  { label: "Destinations", href: "#destinations" },
-  { label: "Avis", href: "#avis" },
-  { label: "FAQ", href: "#faq" },
-  { label: "Contact", href: "#contact" },
+  { label: "Accueil", href: "/#accueil" },
+  { label: "Demande de devis", href: "/#devis" },
+  { label: "Notre priorité", href: "/#priorite" },
+  { label: "Destinations", href: "/#destinations" },
+  { label: "Avis", href: "/#avis" },
+  { label: "FAQ", href: "/#faq" },
+  { label: "Contact", href: "/#contact" },
 ]
 
 const PHONE = "+33 7 67 60 32 84"
@@ -38,7 +38,7 @@ export function SiteHeader() {
       )}
     >
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between gap-4 px-4 sm:px-6 lg:h-20 lg:px-8">
-        <a href="#accueil" className="group flex items-center font-display text-xl font-bold tracking-tight lg:text-2xl">
+        <a href="/" className="group flex items-center font-display text-xl font-bold tracking-tight lg:text-2xl">
           <span className="text-foreground">N-</span>
           <span className="text-primary">drive</span>
         </a>
