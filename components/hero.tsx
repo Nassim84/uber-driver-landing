@@ -29,12 +29,13 @@ export function Hero() {
           </span>
 
           <h1 className="mt-6 font-display text-4xl font-bold leading-[1.05] tracking-tight text-balance sm:text-6xl lg:text-7xl">
-            Votre chauffeur privé <span className="text-primary">en Provence</span>
+            Chauffeur privé VTC <span className="text-primary">à Avignon</span>
           </h1>
 
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-muted-foreground text-pretty">
-            Transferts aéroports, trajets professionnels ou personnels. Un service VTC
-            fiable, ponctuel et sur mesure, pensé pour votre confort.
+            Transferts aéroports et gares TGV, trajets professionnels ou personnels dans
+            toute la Provence. Un service VTC fiable, ponctuel et sur mesure, pensé pour
+            votre confort.
           </p>
 
           <div className="mt-9 flex flex-col gap-3 sm:flex-row sm:items-center">
