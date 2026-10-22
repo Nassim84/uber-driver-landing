@@ -6,6 +6,7 @@ const NAV = [
   { label: "Notre priorité", href: "#priorite" },
   { label: "Destinations", href: "#destinations" },
   { label: "Avis", href: "#avis" },
+  { label: "FAQ", href: "#faq" },
   { label: "Contact", href: "#contact" },
   { label: "Mentions légales", href: "/mentions-legales" },
   { label: "Confidentialité", href: "/politique-de-confidentialite" },

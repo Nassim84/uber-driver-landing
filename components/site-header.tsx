@@ -10,6 +10,7 @@ const NAV_LINKS = [
   { label: "Notre priorité", href: "#priorite" },
   { label: "Destinations", href: "#destinations" },
   { label: "Avis", href: "#avis" },
+  { label: "FAQ", href: "#faq" },
   { label: "Contact", href: "#contact" },
 ]
 

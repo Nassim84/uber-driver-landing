@@ -4,6 +4,7 @@ import { QuoteSection } from "@/components/quote-section";
 import { Strengths } from "@/components/strengths";
 import { Destinations } from "@/components/destinations";
 import { Reviews } from "@/components/reviews";
+import { Faq } from "@/components/faq";
 import { Contact } from "@/components/contact";
 import { SiteFooter } from "@/components/site-footer";
 import type { Metadata } from "next";
@@ -56,6 +57,7 @@ export default function Page() {
 				<Strengths />
 				<Destinations />
 				<Reviews />
+				<Faq />
 				<Contact />
 			</main>
 			<SiteFooter />
