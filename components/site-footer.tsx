@@ -8,6 +8,7 @@ const NAV = [
   { label: "Avis", href: "#avis" },
   { label: "Contact", href: "#contact" },
   { label: "Mentions légales", href: "/mentions-legales" },
+  { label: "Confidentialité", href: "/politique-de-confidentialite" },
 ]
 
 const CONTACT = [

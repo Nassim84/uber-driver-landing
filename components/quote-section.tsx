@@ -155,6 +155,15 @@ export function QuoteSection() {
 								>
 									{loading ? "Envoi en cours…" : "Demander un devis"}
 								</button>
+								<p className="text-center text-xs leading-relaxed text-muted-foreground">
+									Vos informations servent uniquement à traiter votre demande.{" "}
+									<a
+										href="/politique-de-confidentialite"
+										className="underline transition-colors hover:text-primary"
+									>
+										En savoir plus
+									</a>
+								</p>
 							</form>
 						)}
 					</div>
